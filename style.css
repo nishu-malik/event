@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Puritan&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* heading */
+.heading {
+  font-family: Puritan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 154px;
+  line-height: 173px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  width: 62.77%;
+  height: 21.77%;
+  margin-left: 19.72%;
+  margin-right: 17.5%;
+  margin-top: 7.42%;
+}
+.event-row {
+  height: 25.87%;
+  width: 89.86%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 8.1%;
+  margin-top: 12.69%;
+  margin-right: 5.06%;
+}
+.event {
+  width: 20.58%;
+  height: 25.83%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 27px;
+  margin-right: 3.1%;
+}
+.svg {
+  margin-left: 4.86%;
+  margin-right: 5.69%;
+  margin-top: 1.123%;
+  margin-bottom: 0.83%;
+}
+.name-event {
+  width: 18.31%;
+  height: 7.19%;
+  font-family: Puritan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  margin-left: 20.11%;
+  margin-right: 15.11%;
+  margin-bottom: 2.63%;
+}
+.event-details {
+  width: 100%;
+  margin-top: -9.375%;
+  background: #292929;
+  border-radius: 82px 75px 0px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  width: 88.75%;
+  height: 9.57%;
+  font-family: Puritan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 88px;
+  line-height: 99px;
+  color: #ffffff;
+  margin-left: 6.12%;
+  margin-right: 5.13%;
+  margin-top: 20.11%;
+}
+.calender {
+  display: flex;
+  flex-direction: row;
+  margin-left: 9.72%;
+  margin-top: 4.39%;
+  margin-bottom: 4.39%;
+}
+.svg-calender {
+  width: 2.43%;
+  height: 3.9%;
+}
+.date {
+  width: 34.72%;
+  height: 4.19%;
+  font-family: Puritan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 38px;
+  display: flex;
+  align-items: flex-end;
+  margin-left: 1.041%;
+  color: #37f0e2;
+}
+.label {
+  height: 28.8%;
+  margin-left: 6.18%;
+  width: 86%;
+  margin-top: 4.39%;
+}
+.label-heading {
+  height: 7.03%;
+  font-family: Puritan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 51px;
+  line-height: 57px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.label-text {
+  font-family: Puritan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 45px;
+  text-transform: lowercase;
+  margin-top: 3.71%;
+  color: #b1b1b1;
+}
+/* 
+width: 411
+height:836
+
+*/
+/* mobile version */
+
+@media screen and (max-width: 1200px) {
+  .heading {
+    font-size: 120px;
+    line-height: 76px;
+  }
+
+  .svg svg {
+    margin-top: 5%;
+    height: 140px;
+    width: 140px;
+    margin: 0;
+  }
+  .name-event {
+    font-size: 30px;
+  }
+  .name {
+    font-size: 70px;
+  }
+  .calender {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .svg-calender svg {
+    height: 40px;
+    width: 40px;
+  }
+  .date {
+    font-size: 26px;
+    margin-left: 10%;
+  }
+  .label-heading {
+    font-size: 50px;
+  }
+  .label-text {
+    font-size: 30px;
+    line-height: 1.6em;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .heading {
+    font-size: 88px;
+    line-height: 76px;
+  }
+
+  .svg svg {
+    margin-top: 5%;
+    height: 100px;
+    width: 100px;
+    margin: 0;
+  }
+  .name-event {
+    font-size: 26px;
+  }
+  .name {
+    font-size: 80px;
+  }
+  .calender {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .svg-calender svg {
+    height: 50px;
+    width: 50px;
+  }
+  .date {
+    font-size: 30px;
+    margin-left: 8%;
+  }
+  .label-heading {
+    font-size: 50px;
+  }
+  .label-text {
+    font-size: 26px;
+    line-height: 1.6em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 68px;
+    line-height: 76px;
+  }
+
+  .svg svg {
+    margin-top: 5%;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+  }
+  .name-event {
+    font-size: 20px;
+  }
+  .name {
+    font-size: 60px;
+  }
+  .calender {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .svg-calender svg {
+    height: 30px;
+    width: 30px;
+  }
+  .date {
+    font-size: 20px;
+    margin-left: 10%;
+  }
+  .label-heading {
+    font-size: 40px;
+  }
+  .label-text {
+    font-size: 24px;
+    line-height: 1.6em;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .heading {
+    font-size: 68px;
+    line-height: 76px;
+  }
+
+  .svg svg {
+    height: 35px;
+    width: 35px;
+  }
+  .active {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 44.5%;
+    height: 5.38%;
+  }
+  .event:not(.active) {
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  .hide {
+    display: none;
+  }
+  .event-details {
+    margin-top: -4%;
+  }
+  .name-event {
+    font-size: 20px;
+  }
+  .name {
+    font-size: 49px;
+    line-height: 55px;
+    margin-top: 16.57%;
+  }
+  .calender {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .svg-calender svg {
+    height: 30px;
+    width: 30px;
+  }
+  .date {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .label-heading {
+    font-size: 28px;
+    line-height: 31px;
+  }
+  .label-text {
+    font-size: 21px;
+    line-height: 24px;
+  }
+}
